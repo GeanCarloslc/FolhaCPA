@@ -6,18 +6,15 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-public class DadosOpenHelper extends SQLiteOpenHelper {
+public class FolhaCPAOpenHelper extends SQLiteOpenHelper {
 
 
-    public DadosOpenHelper(Context context) {
-        super(context, "dados", null, 1);
-
+    public FolhaCPAOpenHelper(Context context) {
+        super(context, "FolhaCPA", null, 1);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
-
 
     }
 
