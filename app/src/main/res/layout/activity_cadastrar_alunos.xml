@@ -7,7 +7,7 @@
     tools:context=".CadastrarAlunos">
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/edtEmail"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -32,14 +32,14 @@
         android:layout_marginRight="317dp"
         android:text="E-mail:"
         android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/edtEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtNome" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/edtPeriodo"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -66,11 +66,11 @@
         android:layout_marginRight="312dp"
         android:text="Período:"
         android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName6"
+        app:layout_constraintBottom_toTopOf="@+id/edtPeriodo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+        app:layout_constraintTop_toBottomOf="@+id/edtMatricula" />
 
     <TextView
         android:id="@+id/textView2"
@@ -83,14 +83,14 @@
         android:layout_marginRight="318dp"
         android:text="Nome:"
         android:textSize="18dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/edtNome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edtNome"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -121,7 +121,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/edtMatricula"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginStart="40dp"
@@ -149,6 +149,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
