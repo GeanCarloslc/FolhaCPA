@@ -1,9 +1,11 @@
 package com.example.estacio;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.widget.EditText;
 
 public class CadastrarAlunos extends AppCompatActivity {
@@ -18,6 +20,7 @@ public class CadastrarAlunos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastrar_alunos);
 
+
         edtNome = (EditText)findViewById(R.id.edtNome);
         edtEmail = (EditText)findViewById(R.id.edtEmail);
         edtMatricula = (EditText)findViewById(R.id.edtMatricula);
@@ -26,17 +29,7 @@ public class CadastrarAlunos extends AppCompatActivity {
 
     public void validaCampos() {
 
-        String nome = edtNome.getText().toString();
-        String email = edtEmail.getText().toString();
-        String matricula = edtMatricula.getText().toString();
-        String periodo = edtPeriodo.getText().toString();
 
-    }
-
-    private boolean isCampoVazio( String valor ){
-
-        boolean resultado = (TextUtils.isEmpty(valor) || valor.trim().isEmpty());
-        return resultado;
 
     }
 
