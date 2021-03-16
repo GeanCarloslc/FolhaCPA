@@ -19,7 +19,7 @@ public class CadastrarAlunos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastrar_alunos);
-
+ // teste commit
 
         edtNome = (EditText)findViewById(R.id.edtNome);
         edtEmail = (EditText)findViewById(R.id.edtEmail);
