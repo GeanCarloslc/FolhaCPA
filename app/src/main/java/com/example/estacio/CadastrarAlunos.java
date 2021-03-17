@@ -14,6 +14,7 @@ public class CadastrarAlunos extends AppCompatActivity {
     private EditText edtEmail;
     private EditText edtMatricula;
     private EditText edtPeriodo;
+    private EditText editLoginUsuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +26,9 @@ public class CadastrarAlunos extends AppCompatActivity {
         edtEmail = (EditText)findViewById(R.id.edtEmail);
         edtMatricula = (EditText)findViewById(R.id.edtMatricula);
         edtPeriodo = (EditText)findViewById(R.id.edtPeriodo);
+        editLoginUsuario = (EditText)findViewById(R.id.edtLoginUsuario);
 
-       // Veja ai lucas
+
     }
 
     public void validaCampos() {
