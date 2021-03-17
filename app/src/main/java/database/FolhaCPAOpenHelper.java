@@ -16,6 +16,8 @@ public class FolhaCPAOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
+        db.execSQL( ScriptDDL.getCreateTableGnrTipoAvaliacao() );
+
     }
 
     @Override
