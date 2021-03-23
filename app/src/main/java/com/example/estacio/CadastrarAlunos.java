@@ -19,8 +19,7 @@ public class CadastrarAlunos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastrar_alunos);
- // teste commit  sadfghcj
+        setContentView(R.layout.activity_cadastrar_alunos)
 
         edtNome = (EditText)findViewById(R.id.edtNome);
         edtEmail = (EditText)findViewById(R.id.edtEmail);
@@ -29,6 +28,7 @@ public class CadastrarAlunos extends AppCompatActivity {
         editLoginUsuario = (EditText)findViewById(R.id.edtLoginUsuario);
 
         // fiz uma alteração aqui
+        //Aqui lucas
 
 
 
