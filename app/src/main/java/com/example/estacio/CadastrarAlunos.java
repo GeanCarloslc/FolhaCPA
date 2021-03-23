@@ -21,24 +21,17 @@ public class CadastrarAlunos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastrar_alunos);
 
-
         edtNome = (EditText)findViewById(R.id.edtNome);
         edtEmail = (EditText)findViewById(R.id.edtEmail);
         edtMatricula = (EditText)findViewById(R.id.edtMatricula);
         edtPeriodo = (EditText)findViewById(R.id.edtPeriodo);
         editLoginUsuario = (EditText)findViewById(R.id.edtLoginUsuario);
 
-        // Gean aquiq
-@'
 
+        // fiz uma alteração aqui
+        //Aqui lucas
 
-
-
-
-
-
-
-
+        // Gean aqui
 
 
     }
