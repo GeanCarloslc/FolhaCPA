@@ -28,6 +28,9 @@ public class CadastrarAlunos extends AppCompatActivity {
         edtPeriodo = (EditText)findViewById(R.id.edtPeriodo);
         editLoginUsuario = (EditText)findViewById(R.id.edtLoginUsuario);
 
+        // fiz uma alteração aqui
+
+
 
     }
 
