@@ -29,8 +29,7 @@ public class CadastrarAlunos extends AppCompatActivity {
         editLoginUsuario = (EditText)findViewById(R.id.edtLoginUsuario);
 
         // fiz uma alteração aqui
-        // mais essa alteração
-        // teste
+
 
 
     }
