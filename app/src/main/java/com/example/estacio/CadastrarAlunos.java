@@ -26,14 +26,6 @@ public class CadastrarAlunos extends AppCompatActivity {
         edtMatricula = (EditText)findViewById(R.id.edtMatricula);
         edtPeriodo = (EditText)findViewById(R.id.edtPeriodo);
         editLoginUsuario = (EditText)findViewById(R.id.edtLoginUsuario);
-
-
-        // fiz uma alteração aqui
-        //Aqui lucas
-
-        // Gean aqui
-
-
     }
 
     public void validaCampos() {

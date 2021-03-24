@@ -51,7 +51,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="364dp" />
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/edtPeriodo"
@@ -66,7 +67,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="388dp" />
+        tools:layout_editor_absoluteY="388dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/edtNome"
@@ -81,7 +83,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="191dp" />
+        tools:layout_editor_absoluteY="191dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -123,7 +126,8 @@
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="284dp" />
+        tools:layout_editor_absoluteY="284dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/edtLoginUsuario"
@@ -134,7 +138,8 @@
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="284dp" />
+        tools:layout_editor_absoluteY="284dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
@@ -145,7 +150,8 @@
         android:text="Matrícula:"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="260dp" />
+        tools:layout_editor_absoluteY="260dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
@@ -156,6 +162,7 @@
         android:text="Usuário:"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="260dp" />
+        tools:layout_editor_absoluteY="260dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
